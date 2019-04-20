@@ -1,0 +1,43 @@
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#222222"
+idle_fg = "#FFFFFF"
+info_bg = "#222222" 
+info_fg = "#FFFFFF"
+good_bg = "#222222"
+good_fg = "#FFFFFF"
+separator = " "
+separator_fg = "#222222"
+separator_bg = "#222222"	
+
+[icons]
+name = "awesome"
+
+[[block]]
+block = "music"
+buttons = ["prev","play", "next"]
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{Mup}%"
+format_swap = "{SUp}%"
+
+[[block]]
+block = "cpu"
+interval = 1
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d/%m %R"
+
+[[block]]
+block = "battery"
+interval = 10
+format = "{percentage}%"
+
